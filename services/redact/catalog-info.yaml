@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pangea-redact
+  title: '@pangea/redact'
+  description: API used to redact text
+spec:
+  lifecycle: experimental
+  type: api
+  owner: maintainers
