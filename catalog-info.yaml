@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pangea
+  description: |
+    Pangea is a SPaaS that allows you to consume security services for use in application
+  links:
+    - title: Website
+      url: https://pangea.cloud
+    - title: Documentation
+      url: https://pangea.cloud/docs
+spec:
+  type: library
+  owner: Pangea
+  lifecycle: experimental
